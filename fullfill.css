@@ -1,0 +1,130 @@
+body{
+    margin:0px;
+    overflow-x: hidden;
+    
+}
+/*navbar start*/
+.navbar{
+    background-color:transparent;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+    color:tomato;
+    font-family: cursive;
+    
+    
+
+}
+.text{
+    margin-left: 100px;
+}
+.logo{
+    margin-left: 10px;
+}
+.navbarcontent{
+    position: absolute;
+    right: 10px;
+}
+.subbar{
+    display: flex;
+}
+.item{
+    list-style-type: none;
+    margin: 10px;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+
+}
+.item  a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
+
+.container{
+    height: 100vh;
+}
+.home{
+    color:gold
+}
+/*navbar end*/
+
+/*butterfly start*/
+
+.butterfly{
+    
+    position: fixed;
+    right: 680px; /*Home 680  610 500 400 320 190 95*/
+    top:0px;
+    transition: all 1s ease;
+    z-index: 1000;
+}
+
+/*butterfly end*/
+
+/*start about us first container*/
+.firstcontainer{
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    background-image: url('tails.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.circle{
+    margin-left:10px ;
+    height: 500px;
+    width: 500px;
+    
+}
+.paras{
+    position: absolute;
+    right: 100px;
+    width: 600px;
+    transition:  0.7s ease-in-out;
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 4px;
+}
+.firsthalf{
+    
+    height: 250px;
+    width: 500px;
+    background-color:gainsboro;
+    border-radius: 300px 300px 0 0 ;
+}
+.secondhalf{
+    position: absolute;
+    margin-top: 2px;
+    z-index: 10;
+    height: 250px;
+    width: 500px;
+    background-color:gainsboro;
+    border-radius: 0 0 300px 300px  ;
+}
+.img{
+    position: absolute;
+    
+    background-color: transparent;
+    top:22%;
+    left: 10%;
+    transition: all 1s ease;
+}
+.img:hover{
+    top:22%;
+
+}
+
+
+/*end about us first container*/
+.secondcontainer{
+    background-image: url('slidepaper.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
